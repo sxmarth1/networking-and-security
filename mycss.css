@@ -1,0 +1,86 @@
+h1,h2,h3,p,li, table{
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+div.pageHeader, h1.pageHeader{
+  padding: 30px 0px 30px 0px;
+  border-style: solid;
+  margin: auto;
+  text-align: center;
+  background-color: #ADD8E6
+}
+a{
+  text-decoration: none;
+}
+a:link{
+  color: blue
+}
+a:visited{
+  color: red
+}
+a:hover{
+  background-color: grey
+}
+table.Schedule, th, td{
+  border-collapse: collapse;
+  border: 1px solid black
+}
+tbody.row1:hover,tbody.row2:hover,tbody.row3:hover,tbody.row4:hover,tbody.row5:hover,tbody.row6:hover{
+  background-color: grey
+}
+ul.navBar{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+li.navBar{
+  float: left;
+}
+li.navBar a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+* {
+  box-sizing: border-box;
+}
+.courses, table.Schedule{
+  width: 100%;
+}
+.col {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.AbtMe, .programming, .professional{
+  float: left;
+  padding: 10px;
+}
+.programming, .AbtMe{
+  width: 30%;
+}
+.professional{
+  width: 40%;
+}
+.secondRow{
+  content: "";
+  display: table;
+  clear: both;
+}
+.footer {
+  background-color: lightgrey;
+  padding:10px;
+  text-align: center;
+}
+@media screen and (max-width: 600px) {
+  .col, .AbtMe, .professional, .programming {
+    width: 100%;
+  }
